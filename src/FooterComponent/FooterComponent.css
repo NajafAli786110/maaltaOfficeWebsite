@@ -1,0 +1,16 @@
+.footer-main-text{
+    width: 60%;
+    margin: 0.5rem 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer-main-text{
+        width: 100%;
+    }
+    
+.footer-last{
+    display: flex;
+    flex-direction: column;
+}
+}
