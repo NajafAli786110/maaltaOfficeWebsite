@@ -1,10 +1,12 @@
 import './App.css';
+import Article from './ArticlePage/Article';
 import FooterComponent from './FooterComponent/FooterComponent';
 
 function App() {
   return (
     <div className="App">
-      <FooterComponent />
+      <Article />
+      {/* <FooterComponent /> */}
     </div>
   );
 }
